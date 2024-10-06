@@ -2,6 +2,10 @@
 
 This project is a simple, user-friendly calculator web application built with HTML, CSS, and JavaScript. It provides basic arithmetic operations and a clean, responsive interface.
 
+## Live Demo
+
+Check out the live demo of the calculator: [https://domz-calculator.netlify.app/](https://domz-calculator.netlify.app/)
+
 ## Features
 
 - Basic arithmetic operations: addition, subtraction, multiplication, and division
@@ -26,6 +30,8 @@ calculator/
 1. Clone the repository or download the project files.
 2. Ensure all files are in the same directory.
 3. Open `index.html` in a web browser to use the calculator.
+
+Alternatively, you can view the live version at [https://domz-calculator.netlify.app/](https://domz-calculator.netlify.app/)
 
 ## Technologies Used
 

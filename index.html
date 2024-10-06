@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="\calc-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="screen">
+            <p class="screen-text"> </p>
+        </div>
+        <div class="buttons-container">
+            <div class="btn-row">
+                <button onclick="clearAll()" class="operator"><i class="fa-solid fa-c"></i></button>
+                <button onclick="addTodisplay('1')" class="number">1</button>
+                <button onclick="addTodisplay('2')" class="number">2</button>
+                <button onclick="addTodisplay('3')" class="number">3</button>
+            </div>
+            <div class="btn-row">
+                <button onclick="addTodisplay('+')" class="operator"><i class="fa-solid fa-plus"></i></button>
+                <button onclick="addTodisplay('4')" class="number">4</button>
+                <button onclick="addTodisplay('5')" class="number">5</button>
+                <button onclick="addTodisplay('6')" class="number">6</button>
+            </div>
+            <div class="btn-row">
+                <button onclick="addTodisplay('-')" class="operator"><i class="fa-solid fa-minus"></i></button>
+                <button onclick="addTodisplay('7')" class="number">7</button>
+                <button onclick="addTodisplay('8')" class="number">8</button>
+                <button onclick="addTodisplay('9')" class="number">9</button>
+            </div>
+            <div class="btn-row">
+                <button onclick="addTodisplay('*')" class="operator"><i class="fa-solid fa-xmark"></i></button>
+                <button onclick="addTodisplay('0')" class="number w">0</button>
+                <button  onclick="addTodisplay('.')"class="number">.</button>
+            </div>
+            <div class="btn-row">
+                <button onclick="addTodisplay('/')" class="operator"><i class="fa-solid fa-divide"></i></button>
+                <button onclick="clacAll()" class="operator w"><i class="fa-solid fa-equals"></i></button>
+            </div>
+            <div class="btn-row">
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
